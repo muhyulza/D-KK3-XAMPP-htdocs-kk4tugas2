@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var nama = prompt ("Siapa Namamu?");
+		var nis = prompt ("Berapa NISmu?");
+		var jurusan = prompt ("Apa Jurusanmu?");
+		var email = prompt ("Apa Emailmu?");
+		var result = confirm ("Apakah Nama Anda Sudah Benar?");
+			if (result == true){
+				var nama1 = alert ("Selamat Datang " + nama);
+				document.write("Nama Siswa" + " : " +nama+ "</br>");
+				document.write("Nomor Siswa" + " : " +nis+ "</br>");
+				document.write("Jurusan Siswa" + " : " +jurusan+ "</br>");
+				document.write("Aktif Pembelajaran" + " : " +aktif+ "</br>");
+				document.write("Email Siswa" + " : " +email+ "</br>");
+			}
+			else{ 
+				document.write("Kamu Bukan "+ nama);
+			}
+	</script>
+
+</body>
+</html>
